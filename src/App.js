@@ -51,7 +51,7 @@ class App extends React.Component{
             )}
             <div className = "d-flex justify-content-between">
               <a className="btn btn-primary btn-sm" id="tweet-quote" href={twitterURL}><i className="fab fa-twitter"></i> Twitter</a>
-              <button className="btn btn-primary btn-sm" id="new-quote" onClick={this.getRandomIndex}><i className="fas fa-random"></i> Get Quote</button>
+              <button className="btn btn-primary btn-sm" id="new-quote" onClick={this.getRandomIndex}><i className="fas fa-random"></i> New Quote</button>
             </div>
         </div>
       </div>
