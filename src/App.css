@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center;  
 }
 
 .App-logo {
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+#root{
+  background:#42daf5;
+}
+.wrapper{
+  height: 100vh;
+/*   background: pink; */
+  
+}
+.box{
+  background:white;
+  position:relative;
+}
+.fa-quote-left{
+  position:absolute;
+  opacity:0.2;
+  top:10px;
+  left:10px;
+}
+#text{
+  font-size: 1.4rem;
 }
